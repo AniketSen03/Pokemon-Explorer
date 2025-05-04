@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Header from './components/Header';
-import SearchFilter from './components/SearchFilter';
-import PokemonCard from './components/PokemonCard';
+import Header from './Header'
+import SearchFilter from './SearchFilter';
+import PokemonCard from './PokemonCard';
 
 const App = () => {
   const [allPokemon, setAllPokemon] = useState([]);
